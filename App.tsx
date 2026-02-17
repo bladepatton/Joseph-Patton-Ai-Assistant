@@ -1,12 +1,12 @@
 
 import React, { useState, useEffect } from 'react';
-import Header from './components/Header';
-import Hero from './components/Hero';
-import Philosophy from './components/Philosophy';
-import Experience from './components/Experience';
-import TechStack from './components/TechStack';
-import Contact from './components/Contact';
-import Footer from './components/Footer';
+import Header from './components/Header.tsx';
+import Hero from './components/Hero.tsx';
+import Philosophy from './components/Philosophy.tsx';
+import Experience from './components/Experience.tsx';
+import TechStack from './components/TechStack.tsx';
+import Contact from './components/Contact.tsx';
+import Footer from './components/Footer.tsx';
 
 const App: React.FC = () => {
   const [activeSection, setActiveSection] = useState('home');
